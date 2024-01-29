@@ -9,8 +9,7 @@ In order to play:
 - follow the stats at the top for performance update
 
   Disclaimer!! I got a little side-tracked because I want to get things done perfectly and I wanted to do as many things as I could to show what I know, but I just didn't have time.
-  I spent almost 4 hours on the casting system alone because I wanted the line to look as nice as possible and  didn't have time to write cleaner code towards the end. I kept wanting to
-  do more things to show what I know but I ended up just wasting more time. I am sorry...
+  I spent almost 4 hours on the casting system alone because I wanted the line to look as nice as possible and  didn't have time to write cleaner code towards the end. I kept wanting to  do more things to show what I know but I ended up just wasting more time. I am sorry I didn't have time to implement fail safes in cases like if a client disconnects during gameplay and reconnects, but I would be happy to talk about how I would have done it.
 
   Time spent: 13-14 hours
   Assets used:
