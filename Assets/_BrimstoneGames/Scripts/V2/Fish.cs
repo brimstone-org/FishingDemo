@@ -65,19 +65,19 @@ public class Fish : MonoBehaviour
         switch (thisTypeOfFish)
         {
             case Enums.TypeOfFish.goldFish: //easiest to catch
-                if (Random.value > 0.3) //%70 chance to catch
+                if (Random.value > 0.4) //%60 chance to catch
                 {
                     caughtThisFish = true;
                 }
                 break;
             case Enums.TypeOfFish.yellowFish: // medium difficulty to catch
-                if (Random.value > 0.5) //%50 chance to catch
+                if (Random.value > 0.65) //%35chance to catch
                 {
                     caughtThisFish = true;
                 }
                 break;
             case Enums.TypeOfFish.greenFish: //hardest to catch
-                if (Random.value > 0.7) //%30 chance to catch
+                if (Random.value > 0.8) //%20 chance to catch
                 {
                     caughtThisFish = true;
                 }

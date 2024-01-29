@@ -11,6 +11,8 @@ using System.IO;
 public class GameController : MonoBehaviourPunCallbacks
 {
     [SerializeField]
+    private GameObject tutorialText;
+    [SerializeField]
     private Transform playerOneSpawnPoint; //where player 1 spawns
     [SerializeField]
     private Transform playerTwoSpawnPoint; //where player 2 spawns
@@ -62,15 +64,7 @@ public class GameController : MonoBehaviourPunCallbacks
 
     }
 
-    /// <summary>
-    /// RPC to let both clients know the game can start
-    /// </summary>
-    [PunRPC]
-    public void RPC_StartGame()
-    {
-        canStartGame = true;
-        
-    }
+  
 
     /// <summary>
     /// spawns player via Photon
@@ -111,5 +105,31 @@ public class GameController : MonoBehaviourPunCallbacks
         }
         
     }
+
+
+    /// <summary>
+    /// disables the tutorial text after the first cast
+    /// </summary>
+    public void DisableTutorial()
+    {
+        if (tutorialText.activeInHierarchy)
+        {
+            tutorialText.SetActive(false);
+        }
+    }
+
+    #region RPCS
+
+    /// <summary>
+    /// RPC to let both clients know the game can start
+    /// </summary>
+    [PunRPC]
+    public void RPC_StartGame()
+    {
+        canStartGame = true;
+
+    }
+
+    #endregion
 
 }

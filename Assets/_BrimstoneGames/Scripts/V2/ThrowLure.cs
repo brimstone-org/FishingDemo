@@ -96,14 +96,6 @@ public class ThrowLure : MonoBehaviour
         myLine.StartCast();
     }
 
-    /// <summary>
-    /// called at the end of the reel animation to check if we caught something
-    /// </summary>
-    private void CheckReel()
-    {
-        
-
-    }
 
     /// <summary>
     /// updates the UI stats
@@ -184,6 +176,7 @@ public class ThrowLure : MonoBehaviour
         {
             if (GameController.canStartGame)
             {
+                GameController.instance.DisableTutorial();
                 if (myView.IsMine)
                 {
                     Vector2 mouseClick = Camera.main.ScreenToWorldPoint(Input.mousePosition);
