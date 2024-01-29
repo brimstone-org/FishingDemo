@@ -10,7 +10,7 @@ In order to play:
 
   Disclaimer!! I got a little side-tracked because I want to get things done perfectly and I wanted to do as many things as I could to show what I know, but I just didn't have time.
   I spent almost 4 hours on the casting system alone because I wanted the line to look as nice as possible and  didn't have time to write cleaner code towards the end. I kept wanting to
-  do more things to show what I know but I ended up just wasting more time. 
+  do more things to show what I know but I ended up just wasting more time. I am sorry...
 
   Time spent: 13-14 hours
   Assets used:
