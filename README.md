@@ -8,7 +8,7 @@ In order to play:
 - click in the water to launch your line
 - click in the water again to pull back your line
 - follow the stats at the top for performance update
-
+- ALL of the scripts, assets, animations and so on that I've made are inside the _BrimstoneGames folder. Anything outside that is third party assets.
 
 
   Time spent: ~ 10 hours
